@@ -1,5 +1,6 @@
 var fs = require("fs");
 require("dotenv").config();
+var Spotify = require('node-spotify-api');
 
 var keys = require("./keys.js");
 
@@ -96,8 +97,6 @@ function movie(movieName) {
 function doWhatItSays(doWhatItSays) {
   console.log("Do what it says" + doWhatItSays);
 }
-
-
 
 function myspotify() {
 
